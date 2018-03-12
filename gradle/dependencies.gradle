@@ -24,7 +24,9 @@ ext {
             // Support
             supportLib               : '26.1.0',
             constraintLayout         : '1.0.2',
-            firebase                 : '11.0.4',
+            firebasePerf             : '11.0.4',
+            firebaseCore             : '11.4.2',
+            firebaseCrashlytics      : '2.7.1',
 
             // Square
             leakCanary               : '1.5.4',
@@ -46,6 +48,7 @@ ext {
     pluginVersion = [
             checkstyle         : '8.2',
             firebase           : '1.1.1',
+            firebaseCrashlytics: '1.25.1',
             gradle             : '3.0.0',
             gradlePlayPublisher: '1.2.0'
     ]
@@ -86,8 +89,9 @@ ext {
             leakCanaryRelease        : "com.squareup.leakcanary:leakcanary-android-no-op:${version.leakCanary}",
 
             // Firebase
-            firebaseCrash            : "com.google.firebase:firebase-crash:${version.firebase}",
-            firebasePerf             : "com.google.firebase:firebase-perf:${version.firebase}",
+            firebasePerf             : "com.google.firebase:firebase-perf:${version.firebasePerf}",
+            firebaseCrashlytics      : "com.crashlytics.sdk.android:crashlytics:${version.firebaseCrashlytics}",
+            firebaseCore             : "com.google.firebase:firebase-core:${version.firebaseCore}",
 
             // Other
             gson                     : "com.google.code.gson:gson:${version.gson}",
@@ -95,10 +99,11 @@ ext {
     ]
 
     pluginDependencies = [
-            gradle       : "com.android.tools.build:gradle:${pluginVersion.gradle}",
-            checkstyle   : "com.puppycrawl.tools:checkstyle:${pluginVersion.checkstyle}",
-            firebase     : "com.google.firebase:firebase-plugins:${pluginVersion.firebase}",
-            playPublisher: "com.github.triplet.gradle:play-publisher:${pluginVersion.gradlePlayPublisher}"
+            gradle             : "com.android.tools.build:gradle:${pluginVersion.gradle}",
+            checkstyle         : "com.puppycrawl.tools:checkstyle:${pluginVersion.checkstyle}",
+            firebase           : "com.google.firebase:firebase-plugins:${pluginVersion.firebase}",
+            playPublisher      : "com.github.triplet.gradle:play-publisher:${pluginVersion.gradlePlayPublisher}",
+            firebaseCrashlytics: "io.fabric.tools:gradle:${pluginVersion.firebaseCrashlytics}"
     ]
 
     wearDependencies = [
