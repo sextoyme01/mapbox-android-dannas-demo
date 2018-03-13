@@ -95,6 +95,7 @@ import com.mapbox.mapboxandroiddemo.examples.styles.VectorSourceActivity;
 import com.mapbox.mapboxandroiddemo.examples.styles.ZoomDependentFillColorActivity;
 import com.mapbox.mapboxandroiddemo.labs.AnimatedImageGifActivity;
 import com.mapbox.mapboxandroiddemo.labs.IndoorMapActivity;
+import com.mapbox.mapboxandroiddemo.examples.dds.InfoWindowSymbolLayerActivity;
 import com.mapbox.mapboxandroiddemo.labs.InsetMapActivity;
 import com.mapbox.mapboxandroiddemo.labs.LocationPickerActivity;
 import com.mapbox.mapboxandroiddemo.labs.LosAngelesTourismActivity;
@@ -369,7 +370,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
           R.string.activity_styles_fade_switch_title,
           R.string.activity_styles_fade_switch_description,
           new Intent(MainActivity.this, StyleFadeSwitchActivity.class),
-          R.string.activity_styles_fade_switch_url, true, BuildConfig.MIN_SDK_VERSION
+          R.string.activity_styles_fade_switch_url, false, BuildConfig.MIN_SDK_VERSION
         ));
         currentCategory = R.id.nav_styles;
         break;
@@ -664,7 +665,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         currentCategory = R.id.nav_lab;
         break;
       case R.id.nav_dds:
-
         exampleItemModels.add(new ExampleItemModel(
           R.string.activity_dds_heatmap_title,
           R.string.activity_dds_heatmap_description,
@@ -718,6 +718,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
           R.string.activity_dds_multiple_geometries_description,
           new Intent(MainActivity.this, MultipleGeometriesActivity.class),
           R.string.activity_dds_multiple_geometries_url, false, BuildConfig.MIN_SDK_VERSION));
+
+        exampleItemModels.add(new ExampleItemModel(
+          R.string.activity_dds_info_window_symbol_layer_title,
+          R.string.activity_dds_info_window_symbol_layer_description,
+          new Intent(MainActivity.this, InfoWindowSymbolLayerActivity.class),
+          R.string.activity_dds_info_window_symbol_layer_url, true, BuildConfig.MIN_SDK_VERSION
+        ));
 
         currentCategory = R.id.nav_dds;
         break;
