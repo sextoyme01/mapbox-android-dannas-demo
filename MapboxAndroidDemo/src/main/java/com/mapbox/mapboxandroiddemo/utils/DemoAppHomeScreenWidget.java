@@ -101,7 +101,7 @@ public class DemoAppHomeScreenWidget extends AppWidgetProvider implements Locati
 
   private void getReverseGeocodeData(Location currentDeviceLocation, final Context finalContext) {
 
-    // Build a Mapbox reverse geocode request.
+    // Build a Mapbox reverse geocode request
     MapboxGeocoding reverseGeocode = MapboxGeocoding.builder()
       .accessToken(finalContext.getString(R.string.access_token))
       .query(Point.fromLngLat(currentDeviceLocation.getLongitude(), currentDeviceLocation.getLatitude()))
