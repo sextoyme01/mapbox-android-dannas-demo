@@ -1,4 +1,4 @@
-package com.mapbox.mapboxandroiddemo.labs;
+package com.mapbox.mapboxandroiddemo.examples.labs;
 
 import android.graphics.PointF;
 import android.location.Location;
