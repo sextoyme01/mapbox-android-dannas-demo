@@ -138,6 +138,11 @@ dependencies {
 
     // Common module
     implementation project(':SharedCode')
+
+    // Testing
+    androidTestImplementation dependenciesList.testEspressoCore
+    androidTestImplementation dependenciesList.testEspressoIntents
+    androidTestImplementation dependenciesList.testEspressoContrib
 }
 
 apply from: "${rootDir}/gradle/checkstyle.gradle"

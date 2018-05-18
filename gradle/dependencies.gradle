@@ -38,7 +38,8 @@ ext {
             materialStyleDialog      : '2.1',
             cuttaGifView             : '1.1',
             baseFab                  : '1.10.1',
-            materialDialogsCommons   : '0.9.6.0'
+            materialDialogsCommons   : '0.9.6.0',
+            espresso                 : '3.0.1',
     ]
 
     wearVersion = [
@@ -97,7 +98,13 @@ ext {
             materialStyleDialog      : "com.github.javiersantos:MaterialStyledDialogs:${version.materialStyleDialog}",
             cuttaGifView             : "com.github.Cutta:GifView:${version.cuttaGifView}",
             baseFab                  : "com.getbase:floatingactionbutton:${version.baseFab}",
-            materialDialogsCommons   : "com.afollestad.material-dialogs:commons:${version.materialDialogsCommons}"
+            materialDialogsCommons   : "com.afollestad.material-dialogs:commons:${version.materialDialogsCommons}",
+
+            // Testing
+            testEspressoCore         : "com.android.support.test.espresso:espresso-core:${version.espresso}",
+            testEspressoIntents      : "com.android.support.test.espresso:espresso-intents:${version.espresso}",
+            testEspressoContrib      : "com.android.support.test.espresso:espresso-contrib:${version.espresso}",
+
     ]
 
     pluginDependencies = [
