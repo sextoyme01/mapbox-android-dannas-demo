@@ -39,7 +39,9 @@ ext {
             cuttaGifView             : '1.1',
             baseFab                  : '1.10.1',
             materialDialogsCommons   : '0.9.6.0',
-            espresso                 : '3.0.1',
+            espresso                 : '3.0.2',
+            testRunner               : '1.0.2',
+            junit                    : '4.12'
     ]
 
     wearVersion = [
@@ -104,6 +106,9 @@ ext {
             testEspressoCore         : "com.android.support.test.espresso:espresso-core:${version.espresso}",
             testEspressoIntents      : "com.android.support.test.espresso:espresso-intents:${version.espresso}",
             testEspressoContrib      : "com.android.support.test.espresso:espresso-contrib:${version.espresso}",
+            testRunner               : "com.android.support.test:runner:${version.testRunner}",
+            testRules                : "com.android.support.test:rules:${version.testRunner}",
+            junit                    : "junit:junit:${version.junit}",
 
     ]
 

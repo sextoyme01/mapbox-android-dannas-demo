@@ -4,9 +4,6 @@ import android.app.Activity;
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.support.test.espresso.Espresso;
-import android.support.test.espresso.IdlingResourceTimeoutException;
-import android.support.test.rule.ActivityTestRule;
 
 import com.mapbox.mapboxandroiddemo.R;
 import com.mapbox.mapboxsdk.maps.MapboxMap;
@@ -15,16 +12,8 @@ import com.mapbox.mapboxsdk.testapp.utils.OnMapReadyIdlingResource;
 
 import junit.framework.Assert;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Rule;
-
 import timber.log.Timber;
 
-import static android.support.test.espresso.Espresso.onView;
-import static android.support.test.espresso.assertion.ViewAssertions.matches;
-import static android.support.test.espresso.matcher.ViewMatchers.isDisplayed;
-import static android.support.test.espresso.matcher.ViewMatchers.withId;
 
 public abstract class BaseActivityTest {
 
