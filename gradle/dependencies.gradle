@@ -3,22 +3,21 @@ ext {
             minSdkVersion    : 15,
             minWearSdkVersion: 23,
             targetSdkVersion : 26,
-            compileSdkVersion: 26,
-            buildToolsVersion: '26.0.3'
+            compileSdkVersion: 27,
+            buildToolsVersion: '27.0.3'
     ]
 
     version = [
 
             // Mapbox
-            mapboxMapSdk             : '6.0.1',
-            mapboxTurf               : '3.0.1',
-            mapboxGeoJson            : '3.0.1',
-            mapboxPluginBuilding     : '0.2.0',
-            mapboxPluginLocationLayer: '0.5.0',
-            mapboxPluginMarkerCluster: '0.2.0',
-            mapboxPluginPlaces       : '0.3.0',
-            mapboxPluginLocalization : '0.2.0',
-            mapboxPluginTraffic      : '0.5.0',
+            mapboxMapSdk             : '6.1.3',
+            mapboxTurf               : '3.1.0',
+            mapboxGeoJson            : '3.1.0',
+            mapboxPluginBuilding     : '0.3.0',
+            mapboxPluginLocationLayer: '0.5.2',
+            mapboxPluginPlaces       : '0.4.0',
+            mapboxPluginLocalization : '0.3.0',
+            mapboxPluginTraffic      : '0.6.0',
 
             // Support
             supportLib               : '26.1.0',
@@ -34,7 +33,11 @@ ext {
 
             // Other
             gson                     : '2.8',
-            segmentAnalytics         : '2.0.0'
+            segmentAnalytics         : '2.0.0',
+            materialStyleDialog      : '2.1',
+            cuttaGifView             : '1.1',
+            baseFab                  : '1.10.1',
+            materialDialogsCommons   : '0.9.6.0'
     ]
 
     wearVersion = [
@@ -45,7 +48,7 @@ ext {
     pluginVersion = [
             checkstyle         : '8.2',
             firebase           : '1.1.1',
-            gradle             : '3.0.0',
+            gradle             : '3.1.0',
             gradlePlayPublisher: '1.2.0'
     ]
 
@@ -58,7 +61,6 @@ ext {
             // Mapbox plugins
             mapboxPluginLocationLayer: "com.mapbox.mapboxsdk:mapbox-android-plugin-locationlayer:${version.mapboxPluginLocationLayer}",
             mapboxPluginBuilding     : "com.mapbox.mapboxsdk:mapbox-android-plugin-building:${version.mapboxPluginBuilding}",
-            mapboxPluginMarkerCluster: "com.mapbox.mapboxsdk:mapbox-android-plugin-cluster-utils:${version.mapboxPluginMarkerCluster}",
             mapboxPluginPlaces       : "com.mapbox.mapboxsdk:mapbox-android-plugin-places:${version.mapboxPluginPlaces}",
             mapboxPluginLocalization : "com.mapbox.mapboxsdk:mapbox-android-plugin-localization:${version.mapboxPluginLocalization}",
             mapboxPluginTraffic      : "com.mapbox.mapboxsdk:mapbox-android-plugin-traffic:${version.mapboxPluginTraffic}",
@@ -89,7 +91,11 @@ ext {
 
             // Other
             gson                     : "com.google.code.gson:gson:${version.gson}",
-            segmentAnalytics         : "com.segment.analytics.java:analytics:${version.segmentAnalytics}"
+            segmentAnalytics         : "com.segment.analytics.java:analytics:${version.segmentAnalytics}",
+            materialStyleDialog      : "com.github.javiersantos:MaterialStyledDialogs:${version.materialStyleDialog}",
+            cuttaGifView             : "com.github.Cutta:GifView:${version.cuttaGifView}",
+            baseFab                  : "com.getbase:floatingactionbutton:${version.baseFab}",
+            materialDialogsCommons   : "com.afollestad.material-dialogs:commons:${version.materialDialogsCommons}"
     ]
 
     pluginDependencies = [

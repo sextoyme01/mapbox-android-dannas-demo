@@ -24,15 +24,18 @@
     <string name="activity_styles_line_layer_url" translatable="false">http://i.imgur.com/Iqxoing.png</string>
     <string name="activity_styles_symbol_layer_url" translatable="false">http://i.imgur.com/TQ4iA0L.png</string>
     <string name="activity_styles_local_style_or_raster_source_url" translatable="false">http://i.imgur.com/9w9m3On.jpg</string>
-    <string name="activity_style_image_source_url" translatable="false">http://i.imgur.com/ijoGPrF.png</string>
+    <string name="activity_style_image_source_time_lapse_url" translatable="false">http://i.imgur.com/ijoGPrF.png</string>
+    <string name="activity_style_image_source_url" translatable="false">https://i.imgur.com/I6B6cCE.png</string>
     <string name="activity_style_hillshade_url" translatable="false">https://i.imgur.com/U2OKixV.png</string>
+    <string name="activity_styles_fade_switch_url" translatable="false">https://i.imgur.com/1sPnDx5.png</string>
     <string name="activity_extrusions_population_density_extrusions_url" translatable="false">http://i.imgur.com/se1z8Wb.png</string>
     <string name="activity_extrusions_catalina_marathon_extrusions_url" translatable="false">http://i.imgur.com/6j848JL.jpg</string>
     <string name="activity_extrusions_adjust_extrusions_url" translatable="false">http://i.imgur.com/XNTyIO5.png</string>
     <string name="activity_extrusions_indoor_3d_url" translatable="false">http://i.imgur.com/1at7cMf.png</string>
     <string name="activity_extrusions_rotate_extrusions_url" translatable="false">http://i.imgur.com/OzcCsB2.png</string>
     <string name="activity_dds_style_circle_categorically_url" translatable="false">http://i.imgur.com/C3mtfgF.png</string>
-    <string name="activity_dds_heatmap_url" translatable="false">http://i.imgur.com/C3mtfgF.png</string>
+    <string name="activity_dds_heatmap_url" translatable="false">https://i.imgur.com/VektJUJ.png</string>
+    <string name="activity_dds_multiple_heatmap_styling_url" translatable="false">https://i.imgur.com/Uw2DHWB.png</string>
     <string name="activity_dds_choropleth_zoom_change_url" translatable="false">http://i.imgur.com/sPNpLEP.png</string>
     <string name="activity_dds_style_line_identity_property_url" translatable="false">http://i.imgur.com/wgpKvZM.png</string>
     <string name="activity_dds_json_vector_mix_url">http://i.imgur.com/1IXkw80.png</string>
@@ -65,7 +68,6 @@
     <string name="activity_plugins_location_plugin_url" translatable="false">https://i.imgur.com/Opfwv6j.png</string>
     <string name="activity_plugins_places_plugin_url" translatable="false">https://i.imgur.com/oKHx3bv.png</string>
     <string name="activity_plugins_geojson_plugin_url" translatable="false">http://i.imgur.com/kju0sKw.jpg</string>
-    <string name="activity_plugins_markers_clusters_plugin_url" translatable="false">https://i.imgur.com/P6wsuea.jpg</string>
     <string name="activity_plugins_localization_plugin_url" translatable="false">https://i.imgur.com/vi3D3qf.png</string>
     <string name="activity_java_services_simplify_polyline_url" translatable="false">http://i.imgur.com/uATgul1.png</string>
     <string name="activity_java_services_map_matching_url" translatable="false">http://i.imgur.com/bWvVbwC.png</string>
